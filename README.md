@@ -5,6 +5,19 @@ Project 6 focuses on creating your own custom exploratory data analysis (EDA) pr
 _Objective_:
 Perform and publish a custom EDA project to demnostrate skills with Jupyter, pandas, Seaborn and popular tools for data analytics. The notebook should tell a data story and visually present findings in a clear and engaging manner. 
 
+_Dataset_:
+The penguins dataset from seaborn package will be used for this project. Link: https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv
+
+| species   | island | bill_length_mm | flipper_length_mm  | body_mass_g  | sex |
+|-----------|--------|----------------|--------------------|--------------|-----|
+|Adelie     |Torgersen|39.1           |18.7                |181           |MALE |
+|Adelie     |Torgersen|39.5           |17.4                |186           |FEMALE|
+|Adelie     |Torgersen|               |                    |              |      |
+|Adelie     |Torgersen|36.7           |19.3                |193           |FEMALE|
+|Adelie     |Torgersen|39.3           |20.6                |190           |MALE |
+|Adelie     |Torgersen|38.9           |17.8                |181           |FEMALE|
+
+
 _Setting up environment_: 
 ### Create Virtual Environment
 
@@ -29,17 +42,6 @@ py -m pip freeze > requirements.txt
 ```
 
 ```
-_Dataset description_: The penguins dataset from seaborn package will be used for this project. 
-
-| species   | island | bill_length_mm | flipper_length_mm  | body_mass_g  | sex |
-|-----------|--------|----------------|--------------------|--------------|-----|
-|Adelie     |Torgersen|39.1           |18.7                |181           |MALE |
-|Adelie     |Torgersen|39.5           |17.4                |186           |FEMALE|
-|Adelie     |Torgersen|               |                    |              |      |
-|Adelie     |Torgersen|36.7           |19.3                |193           |FEMALE|
-|Adelie     |Torgersen|39.3           |20.6                |190           |MALE |
-|Adelie     |Torgersen|38.9           |17.8                |181           |FEMALE|
-
 
 # Start Project
 
